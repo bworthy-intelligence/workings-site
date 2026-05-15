@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Workings</title>
+  <link rel="icon" type="image/png" href="images/icon.png" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue:       #2563EB;
+      --blue-dark:  #1E3A8A;
+      --blue-light: #DBEAFE;
+      --white:      #ffffff;
+      --off-white:  #F9FAFB;
+      --text:       #111827;
+      --text-muted: #6B7280;
+      --radius:     10px;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: var(--white);
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 32px;
+      background: var(--blue-dark);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    }
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+    .nav-brand img {
+      width: 38px;
+      height: 38px;
+      border-radius: 8px;
+    }
+    .nav-brand span {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--white);
+      letter-spacing: 0.3px;
+    }
+    nav a.nav-link {
+      color: rgba(255,255,255,0.85);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    nav a.nav-link:hover { color: var(--white); }
+
+    /* ── PAGE HEADER ── */
+    .page-header {
+      background: var(--blue);
+      padding: 48px 32px 40px;
+      text-align: center;
+    }
+    .page-header h1 {
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      color: var(--white);
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+    .page-header p {
+      color: rgba(255,255,255,0.8);
+      font-size: 0.95rem;
+    }
+
+    /* ── CONTENT ── */
+    .policy-content {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 56px 32px 72px;
+    }
+    .policy-content h2 {
+      font-size: 1.2rem;
+      color: var(--blue-dark);
+      font-weight: 700;
+      margin: 36px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid var(--off-white);
+    }
+    .policy-content p {
+      font-size: 1rem;
+      line-height: 1.75;
+      color: var(--text);
+      margin-bottom: 14px;
+    }
+    .policy-content ul {
+      margin: 8px 0 14px 24px;
+    }
+    .policy-content ul li {
+      font-size: 1rem;
+      line-height: 1.75;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+    .policy-content a {
+      color: var(--blue);
+      text-decoration: underline;
+    }
+    .contact-block {
+      background: var(--off-white);
+      border-left: 4px solid var(--blue);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      margin-top: 16px;
+    }
+    .contact-block p { margin-bottom: 4px; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--blue-dark);
+      color: rgba(255,255,255,0.7);
+      text-align: center;
+      padding: 24px 32px;
+      font-size: 0.85rem;
+    }
+    footer a { color: rgba(255,255,255,0.85); text-decoration: underline; }
+    footer a:hover { color: var(--white); }
+    footer .footer-links { margin-bottom: 8px; }
+    footer .footer-links a { margin: 0 12px; }
+
+    @media (max-width: 600px) {
+      nav { padding: 12px 16px; }
+      .page-header { padding: 32px 16px 28px; }
+      .policy-content { padding: 36px 16px 56px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-brand">
+      <img src="images/icon.png" alt="Workings app icon" />
+      <span>Workings</span>
+    </a>
+    <a href="index.html" class="nav-link">Home</a>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <h1>Privacy Policy</h1>
+    <p>B.Worthy Intelligence Pty Ltd &mdash; Workings</p>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="policy-content">
+
+    <p>B.Worthy Intelligence Pty Ltd is committed to providing quality services to you and this policy outlines our ongoing obligations to you in respect of how we manage your Personal Information.</p>
+
+    <p>We have adopted the Australian Privacy Principles (APPs) contained in the Privacy Act 1988 (Cth) (the Privacy Act).  The APPs govern the way in which we collect, use, disclose, store, secure and dispose of your Personal Information.</p>
+
+    <p>A copy of the Australian Privacy Principles may be obtained from the website of The Office of the Australian Information Commissioner at <a href="https://www.oaic.gov.au/" target="_blank" rel="noopener">www.oaic.gov.au</a>.</p>
+
+    <h2>What is Personal Information and why do we collect it?</h2>
+
+    <p>Personal Information is information or an opinion that identifies an individual.  Examples of Personal Information we collect include names, email addresses, and learner profile information (such as year level and subject preferences) supplied to the app.</p>
+
+    <p>This Personal Information is obtained in many ways including account registration and learner profile setup within the app, and from third parties where applicable.  We don't guarantee website links or the policies of authorised third parties.</p>
+
+    <p>We collect your Personal Information for the primary purpose of providing our services to you, including generating and delivering personalised maths practice problems and tracking learner progress.  We may also use your Personal Information for secondary purposes closely related to the primary purpose, in circumstances where you would reasonably expect such use or disclosure.  You may unsubscribe from our mailing/marketing lists at any time by contacting us in writing.</p>
+
+    <p>When we collect Personal Information we will, where appropriate and where possible, explain to you why we are collecting the information and how we plan to use it.</p>
+
+    <h2>Children's Privacy</h2>
+
+    <p>Workings is designed to be used by learners of all ages, including children.  Where the app is used by or on behalf of a child, we expect that a parent, guardian, or supervising tutor is responsible for creating and managing the learner's account and profile.</p>
+
+    <p>We do not knowingly collect Personal Information directly from children under the age of 13 without the consent of a parent or guardian.  If you believe that a child has provided Personal Information to us without appropriate consent, please contact us so that we can take appropriate steps.</p>
+
+    <h2>Sensitive Information</h2>
+
+    <p>Sensitive information is defined in the Privacy Act to include information or opinion about such things as an individual's racial or ethnic origin, political opinions, membership of a political association, religious or philosophical beliefs, membership of a trade union or other professional body, criminal record or health information.</p>
+
+    <p>Sensitive information will be used by us only:</p>
+    <ul>
+      <li>For the primary purpose for which it was obtained</li>
+      <li>For a secondary purpose that is directly related to the primary purpose</li>
+      <li>With your consent; or where required or authorised by law</li>
+    </ul>
+
+    <h2>Third Parties</h2>
+
+    <p>Where reasonable and practicable to do so, we will collect your Personal Information only from you.  However, in some circumstances we may be provided with information by third parties.  In such a case we will take reasonable steps to ensure that you are made aware of the information provided to us by the third party.</p>
+
+    <p>The app uses third-party services to power certain features, including:</p>
+    <ul>
+      <li><strong>Supabase</strong> — for secure data storage and user authentication</li>
+      <li><strong>Anthropic</strong> — for AI-powered problem generation (problem content is generated from curriculum parameters, not Personal Information)</li>
+      <li><strong>RevenueCat</strong> — for managing in-app subscription purchases</li>
+    </ul>
+    <p>Each of these providers maintains their own privacy practices.  We encourage you to review their respective policies.</p>
+
+    <h2>Disclosure of Personal Information</h2>
+
+    <p>Your Personal Information may be disclosed in a number of circumstances including the following:</p>
+    <ul>
+      <li>Third parties where you consent to the use or disclosure; and</li>
+      <li>Where required or authorised by law.</li>
+    </ul>
+
+    <h2>Security of Personal Information</h2>
+
+    <p>Your Personal Information is stored in a manner that reasonably protects it from misuse and loss and from unauthorised access, modification or disclosure.</p>
+
+    <p>When your Personal Information is no longer needed for the purpose for which it was obtained, we will take reasonable steps to destroy or permanently de-identify your Personal Information.  However, most of the Personal Information is or will be stored in client files which will be kept by us for a minimum of 7 years.</p>
+
+    <h2>Access to your Personal Information</h2>
+
+    <p>You may access the Personal Information we hold about you and to update and/or correct it, subject to certain exceptions.  If you wish to access your Personal Information, please contact us in writing.</p>
+
+    <p>B.Worthy Intelligence Pty Ltd will not charge any fee for your access request, but may charge an administrative fee for providing a copy of your Personal Information.</p>
+
+    <p>In order to protect your Personal Information we may require identification from you before releasing the requested information.</p>
+
+    <h2>Maintaining the Quality of your Personal Information</h2>
+
+    <p>It is important to us that your Personal Information is up to date.  We will take reasonable steps to make sure that your Personal Information is accurate, complete and up-to-date.  If you find that the information we have is not up to date or is inaccurate, please advise us as soon as practicable so we can update our records and ensure we can continue to provide quality services to you.</p>
+
+    <h2>Policy Updates</h2>
+
+    <p>This Policy may change from time to time and is available on our website.</p>
+
+    <h2>Privacy Policy Complaints and Enquiries</h2>
+
+    <p>If you have any queries or complaints about our Privacy Policy please contact us at:</p>
+
+    <div class="contact-block">
+      <p><strong>B.Worthy Intelligence Pty Ltd</strong></p>
+      <p>8 Wastell St, Northcote, VIC, 3070, Australia</p>
+      <p><a href="mailto:info@bworthyintelligence.com">info@bworthyintelligence.com</a></p>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="mailto:info@bworthyintelligence.com">Contact</a>
+    </div>
+    &copy; 2026 B.Worthy Intelligence Pty Ltd.  All rights reserved.
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Use: Workings</title>
+  <link rel="icon" type="image/png" href="images/icon.png" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue:       #2563EB;
+      --blue-dark:  #1E3A8A;
+      --blue-light: #DBEAFE;
+      --white:      #ffffff;
+      --off-white:  #F9FAFB;
+      --text:       #111827;
+      --text-muted: #6B7280;
+      --radius:     10px;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: var(--white);
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 32px;
+      background: var(--blue-dark);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    }
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+    .nav-brand img { width: 38px; height: 38px; border-radius: 8px; }
+    .nav-brand span { font-size: 1.1rem; font-weight: 700; color: var(--white); letter-spacing: 0.3px; }
+    nav a.nav-link {
+      color: rgba(255,255,255,0.85);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    nav a.nav-link:hover { color: var(--white); }
+
+    .page-header {
+      background: var(--blue);
+      padding: 48px 32px 40px;
+      text-align: center;
+    }
+    .page-header h1 {
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      color: var(--white);
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+    .page-header p {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.8);
+    }
+
+    .content {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 32px 64px;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--blue-dark);
+      margin: 36px 0 10px;
+    }
+    h2:first-child { margin-top: 0; }
+
+    p {
+      font-size: 0.95rem;
+      color: var(--text);
+      line-height: 1.75;
+      margin-bottom: 12px;
+    }
+
+    ul {
+      margin: 8px 0 12px 20px;
+    }
+    ul li {
+      font-size: 0.95rem;
+      color: var(--text);
+      line-height: 1.75;
+      margin-bottom: 4px;
+    }
+
+    a { color: var(--blue); }
+
+    .highlight-box {
+      background: var(--off-white);
+      border-left: 4px solid var(--blue);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding: 16px 20px;
+      margin: 16px 0 24px;
+    }
+    .highlight-box p { margin-bottom: 0; font-size: 0.9rem; }
+
+    footer {
+      background: var(--blue-dark);
+      color: rgba(255,255,255,0.7);
+      text-align: center;
+      padding: 24px 32px;
+      font-size: 0.85rem;
+    }
+    footer a { color: rgba(255,255,255,0.85); text-decoration: underline; }
+    footer a:hover { color: var(--white); }
+    footer .footer-links { margin-bottom: 8px; }
+    footer .footer-links a { margin: 0 12px; }
+
+    @media (max-width: 600px) {
+      nav { padding: 12px 16px; }
+      .page-header { padding: 32px 16px 28px; }
+      .content { padding: 32px 16px 48px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-brand">
+      <img src="images/icon.png" alt="Workings app icon" />
+      <span>Workings</span>
+    </a>
+    <div style="display:flex;gap:24px;align-items:center;">
+      <a href="index.html#download" class="nav-link">Download</a>
+      <a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <h1>Terms of Use</h1>
+    <p>Last updated: 22 May 2026</p>
+  </div>
+
+  <div class="content">
+
+    <h2>1. About These Terms</h2>
+    <p>These Terms of Use govern your use of the Workings mobile application and website (collectively, the "Service") operated by B.Worthy Intelligence Pty Ltd (ABN to be confirmed) ("we", "us", or "our"), an Australian company.</p>
+    <p>By downloading or using the Workings app, you agree to these terms. If you do not agree, do not use the Service.</p>
+
+    <h2>2. Description of Service</h2>
+    <p>Workings is a maths practice application designed for learners, tutors, and parents. The Service provides adaptive practice problems, session tracking, progress reporting, and homework assignment tools aligned to the Australian curriculum.</p>
+
+    <h2>3. Account Registration</h2>
+    <p>You may try the Service without an account. To access full features, including progress tracking and homework, you must create an account with a valid email address and a secure password.</p>
+    <p>You are responsible for maintaining the confidentiality of your account credentials and for all activity that occurs under your account. Notify us immediately if you suspect unauthorised access.</p>
+
+    <h2>4. Tutor Pro Subscription</h2>
+
+    <div class="highlight-box">
+      <p><strong>Workings Tutor Pro</strong> is a monthly auto-renewing subscription that unlocks the full tutor feature set, including problem generation, homework assignment, and student progress monitoring.</p>
+    </div>
+
+    <ul>
+      <li><strong>Price:</strong> As displayed in the app at the time of purchase (prices may vary by region and are shown in local currency).</li>
+      <li><strong>Billing period:</strong> Monthly.</li>
+      <li><strong>Free trial:</strong> A free trial period may be offered. If you do not cancel before the trial ends, you will be charged the subscription price.</li>
+      <li><strong>Auto-renewal:</strong> Your subscription automatically renews each month unless you cancel at least 24 hours before the end of the current period.</li>
+      <li><strong>Cancellation:</strong> You can cancel at any time through your App Store or Google Play account settings. Cancellation takes effect at the end of the current billing period; no partial refunds are issued.</li>
+      <li><strong>Refunds:</strong> Refund requests are handled by Apple (App Store) or Google (Google Play) according to their respective policies.</li>
+    </ul>
+
+    <h2>5. Free Tier</h2>
+    <p>Learner accounts are free. Guest users may try a limited number of practice problems without creating an account. Creating a free learner account unlocks unlimited practice, session history, and the ability to receive homework from tutors.</p>
+
+    <h2>6. Acceptable Use</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Use the Service for any unlawful purpose.</li>
+      <li>Attempt to reverse engineer, copy, or redistribute any part of the Service.</li>
+      <li>Use automated tools to access or interact with the Service.</li>
+      <li>Misrepresent your identity or impersonate another person.</li>
+      <li>Upload or transmit content that is harmful, offensive, or infringes any third-party rights.</li>
+    </ul>
+
+    <h2>7. Children and Parental Consent</h2>
+    <p>Workings is designed to be used by children under the supervision of a parent, guardian, or tutor. If you are setting up an account for a child, you confirm that you have the authority to do so and accept these terms on their behalf.</p>
+
+    <h2>8. Intellectual Property</h2>
+    <p>All content in the Service, including practice problems, text, graphics, and software, is owned by or licensed to B.Worthy Intelligence Pty Ltd. You may not reproduce or distribute this content without our prior written consent.</p>
+
+    <h2>9. Privacy</h2>
+    <p>Our collection and use of your personal information is described in our <a href="privacy-policy.html">Privacy Policy</a>, which forms part of these Terms.</p>
+
+    <h2>10. Disclaimer of Warranties</h2>
+    <p>The Service is provided on an "as is" basis. To the maximum extent permitted by law, we make no warranties, express or implied, regarding the accuracy, reliability, or fitness for purpose of the Service or its content.</p>
+
+    <h2>11. Limitation of Liability</h2>
+    <p>To the extent permitted by Australian consumer law, our total liability to you for any claim arising from use of the Service is limited to the amount you paid us in the 12 months preceding the claim. We are not liable for indirect, incidental, or consequential damages.</p>
+    <p>Nothing in these Terms excludes rights you may have under the Australian Consumer Law that cannot be excluded by contract.</p>
+
+    <h2>12. Changes to These Terms</h2>
+    <p>We may update these Terms from time to time. We will notify you of material changes by posting the updated Terms in the app or on this page. Continued use of the Service after changes take effect constitutes acceptance of the updated Terms.</p>
+
+    <h2>13. Account Deletion</h2>
+    <p>You may delete your account at any time from the Account Settings screen within the app. Deletion is permanent and removes all associated data, including learner profiles, session history, and homework records.</p>
+
+    <h2>14. Governing Law</h2>
+    <p>These Terms are governed by the laws of New South Wales, Australia. Any disputes will be subject to the exclusive jurisdiction of the courts of New South Wales.</p>
+
+    <h2>15. Contact Us</h2>
+    <p>If you have any questions about these Terms, please contact us at <a href="mailto:info@bworthyintelligence.com">info@bworthyintelligence.com</a>.</p>
+
+  </div>
+
+  <footer>
+    <div class="footer-links">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-of-use.html">Terms of Use</a>
+      <a href="mailto:info@bworthyintelligence.com">Contact</a>
+    </div>
+    &copy; 2026 B.Worthy Intelligence Pty Ltd.  All rights reserved.
+  </footer>
+
+</body>
+</html>
